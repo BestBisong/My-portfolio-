@@ -228,42 +228,6 @@
             observer.observe(item);
         });
 
-        // Form submission feedback
-        const contactForm = document.getElementById('contactForm');
-        
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(contactForm);
-            
-            // Simulate form submission
-            const submitBtn = contactForm.querySelector('button[type="submit"]');
-            const originalText = submitBtn.textContent;
-            
-            submitBtn.textContent = 'Sending...';
-            submitBtn.disabled = true;
-            
-            // In a real implementation, you would send the form data to your server
-            // For this example, we'll just simulate a successful submission
-            setTimeout(() => {
-                submitBtn.textContent = 'Message Sent!';
-                submitBtn.style.backgroundColor = '#4CAF50';
-                submitBtn.style.borderColor = '#4CAF50';
-                
-                // Reset form
-                contactForm.reset();
-                
-                // Reset button after 3 seconds
-                setTimeout(() => {
-                    submitBtn.textContent = originalText;
-                    submitBtn.disabled = false;
-                    submitBtn.style.backgroundColor = '';
-                    submitBtn.style.borderColor = '';
-                }, 3000);
-            }, 1500);
-        });
-
         // Initialize reveal animations on load
         window.addEventListener('load', () => {
             const reveals = document.querySelectorAll('.reveal');

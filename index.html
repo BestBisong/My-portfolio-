@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisong Best | Creative Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg" id="animatedBg"></div>
+    
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Bisong<span>Best</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Creative <span class="hero-highlight">Developer</span> & Designer</h1>
+                 <div class="typing-container">
+                   <h2> <span class="typing-text" id="typingText"></span></h2>
+                </div>
+                <p class="hero-subtitle">Crafting elegant digital experiences through code and creativity</p>
+                <a href="#projects" class="btn btn-hero">View My Work</a>
+            </div>
+             
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section reveal" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                   <p>I'm a dedicated backend developer passionate about solving complex problems through elegant code and scalable systems. My approach bridges technical precision with practical solutions, delivering architectures that are both powerful and efficient.</p>
+                   <p>With extensive experience in backend technologies, I've mastered the art of creating robust server-side applications, optimizing database performance, and building secure APIs that form the foundation of exceptional digital experiences.</p>
+                    <h3>My Skill Set</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-code skill-icon"></i>
+                            <span>HTML5 & CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js skill-icon"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react skill-icon"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paint-brush skill-icon"></i>
+                            <span>UI/UX Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt skill-icon"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tachometer-alt skill-icon"></i>
+                            <span>Performance Optimization</span>
+                        </div>
+                    </div>
+                
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-server skill-icon"></i>
+                            <span>Node.js & Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database skill-icon"></i>
+                            <span>SQL & NoSQL Databases</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud skill-icon"></i>
+                            <span>Cloud Platforms (AWS/Azure)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code-branch skill-icon"></i>
+                            <span>API Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-shield-alt skill-icon"></i>
+                            <span>Security & Authentication</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-rocket skill-icon"></i>
+                            <span>System Architecture</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assest/profile 2.1.png" alt="Profile Image">
+                </div>
+            </div>
+            
+            <!-- Stats Section -->
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="20">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="10">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="3">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services reveal" id="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code service-icon"></i>
+                    <h3 class="service-title">Backend Development</h3>
+                    <p class="service-description">Building robust server-side applications, APIs, and database architectures that power modern web applications.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt service-icon"></i>
+                    <h3 class="service-title">Mobile Development</h3>
+                    <p class="service-description">Creating responsive and performant mobile applications with modern frameworks and best practices.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cloud service-icon"></i>
+                    <h3 class="service-title">Cloud Solutions</h3>
+                    <p class="service-description">Designing and implementing scalable cloud infrastructure and deployment strategies for optimal performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section reveal" id="process">
+        <div class="container">
+            <h2 class="section-title">My Process</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Discovery</h3>
+                    <p class="step-description">Understanding your requirements, goals, and target audience to create a strategic plan.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Design</h3>
+                    <p class="step-description">Creating wireframes, prototypes, and visual designs that align with your brand and objectives.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Development</h3>
+                    <p class="step-description">Building the solution with clean, efficient code and implementing all planned features.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Delivery</h3>
+                    <p class="step-description">Testing, deploying, and providing ongoing support to ensure your project's success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section reveal" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <h3>some of my full stack sites</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="assest/logoK.jpg" alt="Project 1" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Luxury E-commerce</h3>
+                        <p class="project-description">A high-end e-commerce platform with elegant UI and seamless user experience.</p>
+                        <a href="https://kess-luxury.onrender.com" target="_blank" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assest/logo2.1.png" alt="Project 2" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Creative Chatting Website</h3>
+                        <p class="project-description">A minimalist portfolio website for a creative Chatting website.</p>
+                        <a href="https://the-room-4z76.onrender.com" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assest/LOGO.png" alt="Project 3" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Bekks & Bee consturction Ltd</h3>
+                        <p class="project-description">An interactive Website for a renowed consturction company</p>
+                        <a href="https://beeks-bee.onrender.com" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section reveal" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item contact-action" onclick="window.location.href='mailto:bestbisong32@example.com'">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>bestbisong32@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item contact-action" onclick="window.location.href='tel:+2348140683459'">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+234 814 068 3459</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Lagos, Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" method="post" action="https://formspree.io/f/mqaynbqv" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" name="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" name="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-textarea" rows="5" placeholder="Your Message"  name="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                 <div>
+                    <h3>Visit any of my handles for more information</h3>
+                    <h3>most projects are only backend for more inquires you can email</h3>
+                    <h3>Or go through my github</h3>
+                    </div>
+                <div class="social-links">
+                    <a href="https://github.com/bestbisong" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/best-bisong-a80b7b366" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="copyright">&copy; 2025 Bisong Best. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>

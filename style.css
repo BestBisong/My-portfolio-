@@ -1016,4 +1016,19 @@
                 background: var(--accent-color);
                 color: var(--primary-color);
             }
+
+            .btn{
+                 display: inline-block;
+            padding: 12px 30px;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: var(--transition);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            }
         }

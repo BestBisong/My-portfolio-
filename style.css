@@ -820,6 +820,20 @@
             .process-steps::before {
                 display: none;
             }
+            .btn{
+                 display: inline-block;
+            padding: 12px 30px;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: var(--transition);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            }
         }
 
         @media (max-width: 768px) {
@@ -920,6 +934,20 @@
             .footer-content h3 {
                 font-size: 1.1rem;
             }
+            .btn{
+                 display: inline-block;
+            padding: 12px 30px;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: var(--transition);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            }
         }
 
         @media (max-width: 576px) {
@@ -971,6 +999,20 @@
 
             .contact-info, .contact-form {
                 gap: 1.2rem;
+            }
+            .btn{
+                 display: inline-block;
+            padding: 12px 30px;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: var(--transition);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
             }
         }
 

@@ -1054,7 +1054,7 @@
                 transform: scale(0.98);
             }
 
-            .btn:active {
+            .btn{
                 background: var(--accent-color);
                 color: var(--primary-color);
             }

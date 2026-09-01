@@ -1,0 +1,12 @@
+{
+  "name": "bisong-best-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Modern modular TypeScript creative developer portfolio",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && python -m http.server 8000",
+    "serve": "tsc && npx serve -l 8000",
+    "watch": "tsc --watch"
+  }
+}
